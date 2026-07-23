@@ -1,0 +1,33 @@
+// Binary Tree Inorder Traversal
+// Difficulty: Easy
+// https://leetcode.com/problems/binary-tree-inorder-traversal/
+
+/**
+ * Definition for a binary tree node.
+ * struct TreeNode {
+ *     int val;
+ *     struct TreeNode *left;
+ *     struct TreeNode *right;
+ * };
+ */
+/**
+ * Note: The returned array must be malloced, assume caller calls free().
+ */
+
+void inOrder(struct TreeNode *root, int *result, int *returnSize){
+    if(root==NULL){
+        return;
+    }
+    inOrder(root->left, result, returnSize);
+    result[(*returnSize)++] = root->val;
+    inOrder(root->right, result, returnSize);
+}
+
+int* inorderTraversal(struct TreeNode* root, int* returnSize) {
+    int *result = (int *)malloc(1000*sizeof(int));
+    *returnSize = 0;
+
+    inOrder(root, result, returnSize);
+    
+    return result;
+}
