@@ -1,0 +1,21 @@
+// Power of Two
+// Difficulty: Easy
+// https://leetcode.com/problems/power-of-two/
+
+bool isPowerOfTwo(int n) {
+    int count = 0;
+    int x = n;
+    if(n<=0){
+        return 0;
+    }
+    while(n!=0){
+        n = n/2;
+        count+=1;
+    }
+    if(pow(2,count-1) == x ){
+        return 1;
+    }
+    else{
+        return 0;
+    }
+}
