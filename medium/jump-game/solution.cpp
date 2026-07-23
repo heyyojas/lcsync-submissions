@@ -1,0 +1,18 @@
+// Jump Game
+// Difficulty: Medium
+// https://leetcode.com/problems/jump-game/
+
+class Solution {
+public:
+    bool canJump(vector<int>& nums) {
+        int maxreach = 0;
+        for(int i=0; i<nums.size(); i++){
+            if(i>maxreach) return false;
+
+            maxreach = max(maxreach, nums[i]+i);
+            
+            if(maxreach >= nums.size()-1) return true;
+        }
+        return true;
+    }
+};
