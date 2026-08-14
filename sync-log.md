@@ -1,12 +1,14 @@
-# lcsync run — 2026-07-31 20:08:32
+# lcsync run — 2026-08-14 15:01:16
 
 | # | Difficulty | Problem | File |
 |---|---|---|---|
-| 1 | Medium | Longest Consecutive Sequence | `medium/longest-consecutive-sequence/solution.cpp` |
-| 2 | Medium | Product of Array Except Self | `medium/product-of-array-except-self/solution.cpp` |
-| 3 | Easy | Subtree of Another Tree | `easy/subtree-of-another-tree/solution.cpp` |
-| 4 | Easy | Contains Duplicate | `easy/contains-duplicate/solution.cpp` |
-| 5 | Easy | Maximum Product of Two Elements in an Array | `easy/maximum-product-of-two-elements-in-an-array/solution.cpp` |
-| 6 | Easy | Pascal's Triangle | `easy/pascals-triangle/solution.cpp` |
-| 7 | Easy | Longest Common Prefix | `easy/longest-common-prefix/solution.cpp` |
-| 8 | Easy | Maximum Product of Three Numbers | `easy/maximum-product-of-three-numbers/solution.cpp` |
+| 1 | Medium | Recover Binary Search Tree | `medium/recover-binary-search-tree/solution.cpp` |
+| 2 | Medium | Length of Longest Subarray With at Most K Frequency | `medium/length-of-longest-subarray-with-at-most-k-frequency/solution.cpp` |
+| 3 | Easy | Smallest Missing Integer Greater Than Sequential Prefix Sum | `easy/smallest-missing-integer-greater-than-sequential-prefix-sum/solution.cpp` |
+| 4 | Easy | Rank Transform of an Array | `easy/rank-transform-of-an-array/solution.cpp` |
+| 5 | Easy | Climbing Stairs | `easy/climbing-stairs/solution.cpp` |
+| 6 | Easy | Length of Last Word | `easy/length-of-last-word/solution.cpp` |
+| 7 | Medium | Insert Interval | `medium/insert-interval/solution.cpp` |
+| 8 | Easy | Find the Highest Altitude | `easy/find-the-highest-altitude/solution.cpp` |
+| 9 | Medium | Sequential Digits | `medium/sequential-digits/solution.cpp` |
+| 10 | Easy | Find Missing Elements | `easy/find-missing-elements/solution.cpp` |
