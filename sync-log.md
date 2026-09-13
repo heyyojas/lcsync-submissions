@@ -1,5 +1,5 @@
-# lcsync run — 2026-08-29 19:14:29
+# lcsync run — 2026-09-13 11:15:51
 
 | # | Difficulty | Problem | File |
 |---|---|---|---|
-| 1 | Easy | Smallest Missing Multiple of K | `easy/smallest-missing-multiple-of-k/solution.cpp` |
+| 1 | Medium | Subsets | `medium/subsets/solution.cpp` |
